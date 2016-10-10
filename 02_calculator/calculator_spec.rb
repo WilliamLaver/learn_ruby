@@ -70,6 +70,7 @@ describe "sum" do
 
   it "computes the sum of an array of many numbers" do
     expect(sum([1,3,5,7,9])).to eq(25)
+
   end
 end
 
@@ -77,11 +78,15 @@ end
 # once the above tests pass,
 # write tests and code for the following:
 
-describe "#multiply" do
+describe "multiply" do
 
-  it "multiplies two numbers"
+  it "multiplies two numbers" do
+	expect(multiply([10,4])).to eq(40)
+  end
 
-  it "multiplies several numbers"
+  it "multiplies several numbers" do
+	expect(multiply([2,4,5,6])).to eq(240)
+  end
   
 end
 
